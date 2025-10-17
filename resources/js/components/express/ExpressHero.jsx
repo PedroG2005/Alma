@@ -28,7 +28,7 @@ const ExpressHero = () => {
                         
                         {/* 3. Tipografia responsiva idêntica à da homepage */}
                         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                            Alma Express
+                            Alma Push
                             {/* Destaque usando a cor 'accent' (verde-lima) */}
                             <span className="block text-accent-600">
                                 Publicidade Rápida e Eficaz

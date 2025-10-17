@@ -4,10 +4,10 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
     {
         question: 'Quanto tempo leva para receber meu projeto?',
-        answer: 'A maioria dos projetos do Alma Express são entregues em 24 a 48 horas após a aprovação do briefing e pagamento. Projetos mais complexos podem levar até 72 horas.',
+        answer: 'A maioria dos projetos do Alma Push são entregues em 24 a 48 horas após a aprovação do briefing e pagamento. Projetos mais complexos podem levar até 72 horas.',
     },
     {
-        question: 'Quais tipos de serviços estão incluídos no Alma Express?',
+        question: 'Quais tipos de serviços estão incluídos no Alma Push?',
         answer: 'Oferecemos criação de posts para redes sociais, banners digitais, artes para anúncios, identidade visual básica, apresentações corporativas e muito mais. Entre em contato para saber se atendemos sua necessidade específica.',
     },
     {
@@ -23,8 +23,8 @@ const faqs = [
         answer: 'Sim, fornecemos os arquivos finais em formatos editáveis (como PSD, AI, ou outros) além dos formatos prontos para uso (PNG, JPG, PDF), dependendo do tipo de projeto.',
     },
     {
-        question: 'Qual é a diferença entre o Alma Express e os serviços tradicionais?',
-        answer: 'O Alma Express é focado em entregas rápidas e processos simplificados, ideal para demandas urgentes. Nossos serviços tradicionais envolvem projetos mais complexos e estratégicos com prazos mais longos.',
+        question: 'Qual é a diferença entre o Alma Push e os serviços tradicionais?',
+        answer: 'O Alma Push é focado em entregas rápidas e processos simplificados, ideal para demandas urgentes. Nossos serviços tradicionais envolvem projetos mais complexos e estratégicos com prazos mais longos.',
     },
 ];
 
@@ -43,7 +43,7 @@ const FAQ = () => {
                         Perguntas Frequentes
                     </h2>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                        Tire suas dúvidas sobre o Alma Express e descubra como podemos ajudar seu negócio.
+                        Tire suas dúvidas sobre o Alma Push e descubra como podemos ajudar seu negócio.
                     </p>
                 </div>
 

@@ -118,7 +118,7 @@ const Header = () => {
                         
                         {/* BOTÃO CTA (Link de página) - Agora usa cor consistente com a página atual (Desktop) */}
                         {!isExpressPage && (
-                            <Link to="/express" className={ctaButtonClasses}>Alma Express</Link>
+                            <Link to="/express" className={ctaButtonClasses}>Alma Push</Link>
                         )}
                         
                         {isExpressPage && (

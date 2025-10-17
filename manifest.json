@@ -1,0 +1,103 @@
+{
+  "resources/js/app.jsx": {
+    "file": "assets/app-BS_ZUzBI.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "css": [
+      "assets/app-Bvv5ulqP.css"
+    ],
+    "assets": [
+      "assets/LogoAlmaBranca-DkxDests.png",
+      "assets/LogoAlmaPreta-DJl6XOq-.png",
+      "assets/client-1-DR6xTnm5.svg",
+      "assets/client-2-JsHZvsxQ.svg",
+      "assets/client-3-CEvxPhqU.svg",
+      "assets/client-4-DfaOUmNg.svg",
+      "assets/client-5-Itdiak2m.svg",
+      "assets/client-6-DquYW29b.svg",
+      "assets/client-7-CgLQSLVF.svg",
+      "assets/client-8-DJTASuOY.svg",
+      "assets/postagem-instagram-1-B2_xoKjV.jpg",
+      "assets/postagem-instagram-2-DZlItPth.jpg",
+      "assets/postagem-instagram-3-Du6C-pVM.jpg",
+      "assets/postagem-instagram-4-CX8Lke1N.jpg",
+      "assets/postagem-instagram-5-D6qJcenP.jpg",
+      "assets/postagem-instagram-6-Dx7GL_hn.jpg",
+      "assets/postagem-instagram-7-CvnmwNvc.jpg",
+      "assets/postagem-instagram-8-B4Cs9ZDK.jpg"
+    ]
+  },
+  "resources/js/assets/images/LogoAlmaBranca.png": {
+    "file": "assets/LogoAlmaBranca-DkxDests.png",
+    "src": "resources/js/assets/images/LogoAlmaBranca.png"
+  },
+  "resources/js/assets/images/LogoAlmaPreta.png": {
+    "file": "assets/LogoAlmaPreta-DJl6XOq-.png",
+    "src": "resources/js/assets/images/LogoAlmaPreta.png"
+  },
+  "resources/js/assets/images/clients/client-1.svg": {
+    "file": "assets/client-1-DR6xTnm5.svg",
+    "src": "resources/js/assets/images/clients/client-1.svg"
+  },
+  "resources/js/assets/images/clients/client-2.svg": {
+    "file": "assets/client-2-JsHZvsxQ.svg",
+    "src": "resources/js/assets/images/clients/client-2.svg"
+  },
+  "resources/js/assets/images/clients/client-3.svg": {
+    "file": "assets/client-3-CEvxPhqU.svg",
+    "src": "resources/js/assets/images/clients/client-3.svg"
+  },
+  "resources/js/assets/images/clients/client-4.svg": {
+    "file": "assets/client-4-DfaOUmNg.svg",
+    "src": "resources/js/assets/images/clients/client-4.svg"
+  },
+  "resources/js/assets/images/clients/client-5.svg": {
+    "file": "assets/client-5-Itdiak2m.svg",
+    "src": "resources/js/assets/images/clients/client-5.svg"
+  },
+  "resources/js/assets/images/clients/client-6.svg": {
+    "file": "assets/client-6-DquYW29b.svg",
+    "src": "resources/js/assets/images/clients/client-6.svg"
+  },
+  "resources/js/assets/images/clients/client-7.svg": {
+    "file": "assets/client-7-CgLQSLVF.svg",
+    "src": "resources/js/assets/images/clients/client-7.svg"
+  },
+  "resources/js/assets/images/clients/client-8.svg": {
+    "file": "assets/client-8-DJTASuOY.svg",
+    "src": "resources/js/assets/images/clients/client-8.svg"
+  },
+  "resources/js/assets/images/posts/postagem-instagram-1.jpg": {
+    "file": "assets/postagem-instagram-1-B2_xoKjV.jpg",
+    "src": "resources/js/assets/images/posts/postagem-instagram-1.jpg"
+  },
+  "resources/js/assets/images/posts/postagem-instagram-2.jpg": {
+    "file": "assets/postagem-instagram-2-DZlItPth.jpg",
+    "src": "resources/js/assets/images/posts/postagem-instagram-2.jpg"
+  },
+  "resources/js/assets/images/posts/postagem-instagram-3.jpg": {
+    "file": "assets/postagem-instagram-3-Du6C-pVM.jpg",
+    "src": "resources/js/assets/images/posts/postagem-instagram-3.jpg"
+  },
+  "resources/js/assets/images/posts/postagem-instagram-4.jpg": {
+    "file": "assets/postagem-instagram-4-CX8Lke1N.jpg",
+    "src": "resources/js/assets/images/posts/postagem-instagram-4.jpg"
+  },
+  "resources/js/assets/images/posts/postagem-instagram-5.jpg": {
+    "file": "assets/postagem-instagram-5-D6qJcenP.jpg",
+    "src": "resources/js/assets/images/posts/postagem-instagram-5.jpg"
+  },
+  "resources/js/assets/images/posts/postagem-instagram-6.jpg": {
+    "file": "assets/postagem-instagram-6-Dx7GL_hn.jpg",
+    "src": "resources/js/assets/images/posts/postagem-instagram-6.jpg"
+  },
+  "resources/js/assets/images/posts/postagem-instagram-7.jpg": {
+    "file": "assets/postagem-instagram-7-CvnmwNvc.jpg",
+    "src": "resources/js/assets/images/posts/postagem-instagram-7.jpg"
+  },
+  "resources/js/assets/images/posts/postagem-instagram-8.jpg": {
+    "file": "assets/postagem-instagram-8-B4Cs9ZDK.jpg",
+    "src": "resources/js/assets/images/posts/postagem-instagram-8.jpg"
+  }
+}

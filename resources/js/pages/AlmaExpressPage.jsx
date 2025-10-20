@@ -5,7 +5,7 @@ import ExpressHero from '../components/express/ExpressHero';
 import HowItWorks from '../components/express/HowItWorks';
 import Benefits from '../components/express/Benefits';
 import FAQ from '../components/express/FAQ';
-import Contact from '../components/home/Contact';
+import ContactPush from '../components/express/ContactPush';
 import WhatsAppButton from '../components/common/WhatsAppButton';
 
 // 1. Declaramos o componente como uma constante
@@ -22,7 +22,7 @@ const AlmaExpressPage = () => {
                 <HowItWorks />
                 <Benefits />
                 <FAQ />
-                <Contact />
+                <ContactPush />
             </main>
             <Footer />
             <WhatsAppButton/>

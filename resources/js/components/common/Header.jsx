@@ -47,11 +47,11 @@ const Header = () => {
 
     const showDarkVersion = isScrolled || isMobileMenuOpen;
     
-    // 🔄 CORREÇÃO: O botão CTA agora sempre usará a cor de destaque da página atual
-    const ctaButtonClasses = `px-6 py-2 rounded-full font-semibold transition-all hover:scale-105 ${
-        isExpressPage
-            ? 'bg-accent-600 text-primary-900 hover:bg-accent-500' // Na Express, usa a cor ACCENT
-            : 'bg-secondary-600 text-white hover:bg-secondary-700' // Na Home, usa a cor SECONDARY
+    // 🚀 NOVO ESTILO CONSISTENTE PARA O BOTÃO CTA
+    const ctaButtonClasses = `px-6 py-2 rounded-full font-semibold transition-all border ${
+        showDarkVersion
+            ? 'border-primary-800 text-primary-800 hover:bg-primary-800 hover:text-white' // Estilo para header fixo
+            : 'border-white text-white hover:bg-white hover:text-primary-800' // Estilo para header transparente
     }`;
     
     // Estilos do Link de Contato (agora link normal)
@@ -76,7 +76,7 @@ const Header = () => {
                         />
                     </Link>
 
-                    {/* 🚀 PONTO DE QUEBRA AJUSTADO: hidden lg:flex */}
+                    {/* PONTO DE QUEBRA AJUSTADO: hidden lg:flex */}
                     <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6 flex-nowrap">
                         {/* Links de âncora normais */}
                         {!isExpressPage && (
@@ -116,7 +116,7 @@ const Header = () => {
                             </a>
                         </div>
                         
-                        {/* BOTÃO CTA (Link de página) - Agora usa cor consistente com a página atual (Desktop) */}
+                        {/* BOTÃO CTA (Link de página) - Agora usa o novo estilo consistente */}
                         {!isExpressPage && (
                             <Link to="/express" className={ctaButtonClasses}>Alma Push</Link>
                         )}
@@ -144,7 +144,8 @@ const Header = () => {
                                 <a href="#portfolio" className="block px-4 py-2 text-primary-700 hover:bg-gray-100" onClick={(e) => handleAnchorClick(e, 'portfolio')}>Portfólio</a>
                                 <a href="#redes" className="block px-4 py-2 text-primary-700 hover:bg-gray-100" onClick={(e) => handleAnchorClick(e, 'redes')}>Redes</a>
                                 <a href="#contato" className="block px-4 py-2 text-primary-700 hover:bg-gray-100" onClick={(e) => handleAnchorClick(e, 'contato')}>Fale Conosco</a>
-                                <Link to="/express" className="block px-4 py-2 bg-secondary-600 text-white font-semibold mx-4 rounded-lg text-center hover:bg-secondary-700 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Alma Push</Link>
+                                {/* 🚀 NOVO ESTILO CONSISTENTE PARA BOTÃO MOBILE */}
+                                <Link to="/express" className="block px-4 py-2 mx-4 mt-2 rounded-lg text-center font-semibold bg-primary-800 text-white hover:bg-primary-700 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Alma Push</Link>
                             </>
                         )}
                         {isExpressPage && (
@@ -154,7 +155,8 @@ const Header = () => {
                                 <a href="#planos" className="block px-4 py-2 text-primary-700 hover:bg-gray-100" onClick={(e) => handleAnchorClick(e, 'planos')}>Planos</a>
                                 <a href="#perguntas" className="block px-4 py-2 text-primary-700 hover:bg-gray-100" onClick={(e) => handleAnchorClick(e, 'perguntas')}>FAQ</a>
                                 <a href="#contato" className="block px-4 py-2 text-primary-700 hover:bg-gray-100" onClick={(e) => handleAnchorClick(e, 'contato')}>Fale Conosco</a>
-                                <Link to="/" className="block px-4 py-2 bg-accent-600 text-primary-900 font-semibold mx-4 rounded-lg text-center hover:bg-accent-500 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
+                                {/* 🚀 NOVO ESTILO CONSISTENTE PARA BOTÃO MOBILE */}
+                                <Link to="/" className="block px-4 py-2 mx-4 mt-2 rounded-lg text-center font-semibold bg-primary-800 text-white hover:bg-primary-700 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
                             </>
                         )}
                         

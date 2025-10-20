@@ -1,14 +1,13 @@
 import React from 'react';
-// 1. Importar o hook useLocation
 import { Link, useLocation } from 'react-router-dom';
 import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
 import logoBranca from '../../assets/images/LogoAlmaBranca.png';
 
 const Footer = () => {
-    // 2. Determinar a página atual
     const location = useLocation();
-    const isExpressPage = location.pathname === '/express';
+    // A variável agora representa se estamos na página do Alma Push
+    const isPushPage = location.pathname === '/express';
 
     return (
         <footer className="bg-primary-900 text-white">
@@ -24,13 +23,13 @@ const Footer = () => {
                             publicidade focada em resultados e inovação.
                         </p>
                         <div className="flex space-x-4 justify-center md:justify-start">
-                            {/* 3. Cor do hover dos ícones sociais agora é dinâmica */}
+                            {/* 1. COR DO HOVER: Atualizada de verde para fúcsia na página Push */}
                             <a
                                 href="https://www.facebook.com/agenciaalma.publicidade"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`w-10 h-10 bg-primary-800 rounded-full flex items-center justify-center transition-colors ${
-                                    isExpressPage ? 'hover:bg-accent-600' : 'hover:bg-secondary-600'
+                                    isPushPage ? 'hover:bg-fuchsia-500' : 'hover:bg-secondary-600'
                                 }`}
                             >
                                 <Facebook size={20} />
@@ -40,7 +39,7 @@ const Footer = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`w-10 h-10 bg-primary-800 rounded-full flex items-center justify-center transition-colors ${
-                                    isExpressPage ? 'hover:bg-accent-600' : 'hover:bg-secondary-600'
+                                    isPushPage ? 'hover:bg-fuchsia-500' : 'hover:bg-secondary-600'
                                 }`}
                             >
                                 <Instagram size={20} />
@@ -50,7 +49,7 @@ const Footer = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`w-10 h-10 bg-primary-800 rounded-full flex items-center justify-center transition-colors ${
-                                    isExpressPage ? 'hover:bg-accent-600' : 'hover:bg-secondary-600'
+                                    isPushPage ? 'hover:bg-fuchsia-500' : 'hover:bg-secondary-600'
                                 }`}
                             >
                                 <Linkedin size={20} />
@@ -65,6 +64,7 @@ const Footer = () => {
                             <li><Link to="/" className="text-gray-400 hover:text-white transition-colors">Home</Link></li>
                             <li><a href="#servicos" className="text-gray-400 hover:text-white transition-colors">Serviços</a></li>
                             <li><a href="#portfolio" className="text-gray-400 hover:text-white transition-colors">Clientes</a></li>
+                            {/* 2. TEXTO DO LINK: Atualizado para "Alma Push" */}
                             <li><Link to="/express" className="text-gray-400 hover:text-white transition-colors">Alma Push</Link></li>
                         </ul>
                     </div>
@@ -73,20 +73,21 @@ const Footer = () => {
                     <div className="md:col-span-2">
                         <h4 className="text-base lg:text-lg font-semibold mb-4">Contato</h4>
                         <ul className="space-y-3 flex flex-col items-center md:items-start text-sm lg:text-base">
-                            {/* 4. Cor dos ícones de contato agora é dinâmica */}
+                            {/* 3. COR DOS ÍCONES: Atualizada de verde para fúcsia na página Push */}
                             <li className="flex items-start space-x-3 text-left w-full max-w-xs md:max-w-none">
-                                <MapPin size={20} className={`flex-shrink-0 mt-1 ${isExpressPage ? 'text-accent-600' : 'text-secondary-600'}`} />
+                                <MapPin size={20} className={`flex-shrink-0 mt-1 ${isPushPage ? 'text-fuchsia-500' : 'text-secondary-600'}`} />
                                 <span className="text-gray-400 break-words">
                                     St. de Industrias Graficas LOTE 385 - Sudoeste/Octogonal, Brasília - DF
                                 </span>
                             </li>
+                             {/* 4. INFORMAÇÕES DE CONTATO: Atualizadas com base no PDF */}
                             <li className="flex items-center space-x-3">
-                                <Phone size={20} className={`flex-shrink-0 ${isExpressPage ? 'text-accent-600' : 'text-secondary-600'}`} />
-                                <span className="text-gray-400">(11) 1234-5678</span>
+                                <Phone size={20} className={`flex-shrink-0 ${isPushPage ? 'text-fuchsia-500' : 'text-secondary-600'}`} />
+                                <span className="text-gray-400">(61) 3443-5450</span>
                             </li>
                             <li className="flex items-center space-x-3">
-                                <Mail size={20} className={`flex-shrink-0 ${isExpressPage ? 'text-accent-600' : 'text-secondary-600'}`} />
-                                <span className="text-gray-400 break-words">contato@almaage.com.br</span>
+                                <Mail size={20} className={`flex-shrink-0 ${isPushPage ? 'text-fuchsia-500' : 'text-secondary-600'}`} />
+                                <span className="text-gray-400 break-words">oi@agenciaalma.digital</span>
                             </li>
                         </ul>
                     </div>

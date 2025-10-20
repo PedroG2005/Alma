@@ -24,7 +24,7 @@ const faqs = [
     },
     {
         question: 'Qual é a diferença entre o Alma Push e os serviços tradicionais?',
-        answer: 'O Alma Push é focado em entregas rápidas e processos simplificados, ideal para demandas urgentes. Nossos serviços tradicionais envolvem projetos mais complexos e estratégicos com prazos mais longos.',
+        answer: 'O Alma Push é focado em gestão inteligente de redes sociais e tráfego pago para otimizar resultados. Nossos serviços tradicionais envolvem projetos mais complexos e estratégicos com prazos mais longos.',
     },
 ];
 
@@ -60,9 +60,9 @@ const FAQ = () => {
                                 <span className="font-semibold text-primary-800 pr-4">
                                     {faq.question}
                                 </span>
-                                {/* 1. Cor do ícone de seta alterada para verde-lima */}
+                                {/* 1. COR DO ÍCONE: Alterada de verde (accent-600) para fúcsia (fuchsia-500) */}
                                 <ChevronDown
-                                    className={`flex-shrink-0 text-accent-600 transition-transform ${
+                                    className={`flex-shrink-0 text-fuchsia-500 transition-transform ${
                                         openIndex === index ? 'rotate-180' : ''
                                     }`}
                                     size={24}

@@ -15,7 +15,7 @@ const ExpressHero = () => {
             style={{ backgroundImage: `url(${heroBackground})` }}
         >
             {/* 3. SOBREPOSIÇÃO (OVERLAY): Adicionado um filtro escuro para garantir a legibilidade do texto. */}
-            <div className="absolute inset-0 bg-black/60 z-0"></div>
+            <div className="absolute inset-0 z-0"></div>
 
             {/* Content (agora com z-10 para ficar sobre a imagem e o overlay) */}
             <div className="container mx-auto px-4 relative z-10">

@@ -144,7 +144,7 @@ const Header = () => {
                                 <a href="#portfolio" className="block px-4 py-2 text-primary-700 hover:bg-gray-100" onClick={(e) => handleAnchorClick(e, 'portfolio')}>Portfólio</a>
                                 <a href="#redes" className="block px-4 py-2 text-primary-700 hover:bg-gray-100" onClick={(e) => handleAnchorClick(e, 'redes')}>Redes</a>
                                 <a href="#contato" className="block px-4 py-2 text-primary-700 hover:bg-gray-100" onClick={(e) => handleAnchorClick(e, 'contato')}>Fale Conosco</a>
-                                <Link to="/express" className="block px-4 py-2 bg-secondary-600 text-white font-semibold mx-4 rounded-lg text-center hover:bg-secondary-700 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Alma Express</Link>
+                                <Link to="/express" className="block px-4 py-2 bg-secondary-600 text-white font-semibold mx-4 rounded-lg text-center hover:bg-secondary-700 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>Alma Push</Link>
                             </>
                         )}
                         {isExpressPage && (

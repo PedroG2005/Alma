@@ -94,7 +94,7 @@ const Contact = () => {
                         <div className="flex justify-center space-x-4">
                             {/* 4. Ícones sociais com hover dinâmico */}
                             <a
-                                href="https://facebook.com"
+                                href="https://www.facebook.com/agenciaalma.publicidade"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`w-12 h-12 bg-white/10 rounded-full flex items-center justify-center text-white transition-colors ${isExpressPage ? 'hover:bg-accent-600' : 'hover:bg-secondary-600'}`}
@@ -110,7 +110,7 @@ const Contact = () => {
                                 <Instagram size={24} />
                             </a>
                             <a
-                                href="https://linkedin.com"
+                                href="https://linkedin.com/company/agenciaalma"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`w-12 h-12 bg-white/10 rounded-full flex items-center justify-center text-white transition-colors ${isExpressPage ? 'hover:bg-accent-600' : 'hover:bg-secondary-600'}`}

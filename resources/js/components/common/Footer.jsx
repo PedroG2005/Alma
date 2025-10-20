@@ -26,7 +26,7 @@ const Footer = () => {
                         <div className="flex space-x-4 justify-center md:justify-start">
                             {/* 3. Cor do hover dos ícones sociais agora é dinâmica */}
                             <a
-                                href="https://facebook.com"
+                                href="https://www.facebook.com/agenciaalma.publicidade"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`w-10 h-10 bg-primary-800 rounded-full flex items-center justify-center transition-colors ${
@@ -46,7 +46,7 @@ const Footer = () => {
                                 <Instagram size={20} />
                             </a>
                             <a
-                                href="https://linkedin.com"
+                                href="https://linkedin.com/company/agenciaalma"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`w-10 h-10 bg-primary-800 rounded-full flex items-center justify-center transition-colors ${
